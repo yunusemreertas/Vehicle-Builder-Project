@@ -17,36 +17,29 @@ The Vehicle Builder Project is a command-line application written in TypeScript 
 - [Questions](#questions)
 
 ## Installation
-Follow these steps to set up and run the project:
-
-Clone the repository to your local machine:
-
-bash
-Copy code
+1. Clone the repository to your local machine:
 git clone https://github.com/your-username/vehicle-builder-project.git
-Navigate to the project folder:
 
-bash
-Copy code
+2. Navigate to the project folder:
 cd vehicle-builder-project
-Install the project dependencies:
 
-bash
-Copy code
+3. Install the project dependencies:
 npm install
-Compile the TypeScript code:
 
-bash
-Copy code
+4. Compile the TypeScript code:
 npx tsc
-Run the application:
 
-bash
-Copy code
+5. Run the application:
 node dist/index.js
 
 ## Usage
-Use this README generator to save time and quickly create a professional README.md file for your projects.
+1. Run the application:
+node dist/index.js
+
+2. Follow the prompts to:
+Create new vehicles (Car, Truck, Motorbike).
+Select existing vehicles.
+Perform actions such as Start, Accelerate, Stop, Tow, and Do a Wheelie.
 
 ## License
 This project is licensed under the MIT license.
@@ -55,7 +48,13 @@ This project is licensed under the MIT license.
 Contributions are welcome! Feel free to submit a pull request or email me with your ideas.
 
 ## Tests
-Run node index.js and follow the prompts to test the application's functionality.
+1. Compile the TypeScript code:
+npx tsc
+
+2. Run the application:
+node dist/index.js
+
+3. Follow the prompts to ensure all vehicle types and actions are working correctly.
 
 ## Questions
 If you have any questions, you can reach me at:
